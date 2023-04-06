@@ -1,0 +1,72 @@
+.navbar{
+  height: 65px;
+}
+.navbar-nav .nav-link {
+	padding-left: .1rem;
+}
+.navbar-nav a {
+	color: white;
+	transition: all ease 0.5s;
+}
+.navbar-nav a:hover,
+.navbar-nav a:focus,
+.navbar-nav a:active,
+.navbar-nav a.hilite {
+    margin-left: 25px;
+	color: rgb(172, 197, 47);
+	background: #3da722;
+	border-radius: 3px;
+}
+/* ===== == = === 48em (768px) === = == ===== */
+@media only screen and (min-width : 48em) {
+	.navbar-nav a:hover,
+	.navbar-nav a:focus,
+	.navbar-nav a:active,
+	.navbar-nav a.hilite {
+		transform: translateY(0.5rem) scaleY(1.2);
+	}
+	.navbar-nav .nav-link {
+		padding-left: 0;
+	}
+}
+
+/* .sec{
+    display: grid;
+    padding: 30px;
+}
+#mySidenav a {
+    margin-top: 40px;
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(135, 214, 130);
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #about {
+    top: 20px;
+    background-color: purple;
+  }
+  
+  #blog {
+    top: 80px;
+    background-color: orchid;
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: rgb(247, 139, 243);
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: rgb(216, 241, 148)
+  } */

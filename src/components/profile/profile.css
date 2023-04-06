@@ -1,0 +1,20 @@
+.prof img{
+    margin-left: 200px;
+    height: 70px;
+    width: 90px;
+}
+.title{
+    margin-top: 60px;
+}
+.first{
+    font-family: 'Times New Roman', Times, serif;
+}
+.one{
+    background-color: rgba(86, 232, 184, 0.466);
+    border-radius: 1px;
+    border-color: red;
+}
+.one:hover{
+    background-color: rgba(243, 255, 251, 0.466);
+
+}
